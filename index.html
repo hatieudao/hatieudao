@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <title>Happy Dinner</title>
+</head>
+<body>
+    <header class="top-menu">
+        <a href="index.html">
+            <img src="images/logo.png" alt="logo" class="logo">
+        </a>
+            <ul class="menu-web">
+                <li class="menu-item">
+                    <a href="">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="">Menu</a>
+                </li>
+                <li class="menu-item">
+                    <a href="">About</a>
+                </li>
+                <li class="menu-item dropdown">
+                    <a href="">Pages</a>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li> <a href="#" target="_blank" rel="noopener noreferrer">Reservation</a> </li>
+                            <li> <a href="#" target="_blank" rel="noopener noreferrer">Stuff</a> </li>
+                            <li> <a href="#" target="_blank" rel="noopener noreferrer">Gallery</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menu-item dropdown">
+                    <a href="">Blogs</a>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li> <a href="#" target="_blank" rel="noopener noreferrer">Blog</a> </li>
+                            <li> <a href="#" target="_blank" rel="noopener noreferrer">Blog Single</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+    </header>
+    <!-- slide-show -->
+    <div class="slide" id="slide">
+        <div class="slide-container">
+            <img src="images/slider-01.jpg" alt="slide-photo" class="slide-photo">
+            <img src="images/slider-02.jpg" alt="slide-photo" class="slide-photo">
+            <img src="images/slider-03.jpg" alt="slide-photo" class="slide-photo">                        
+        </div>
+        <div class="overlay"></div>
+        <span>Welcom <br/> Hoàng Anh restaurant <i class="fas fa-chevron-circle-left"></i> </span>
+        <div id="btn-left"> <img src="images/arrow.png" alt="slide-icon" class="slide-icon"> </div>
+        <div id="btn-right" ><img src="images/arrow1.png" alt="slide-icon" class="slide-icon" ></div>
+        <div class="dots">
+            <div onclick="slideShow(0)" ></div>
+            <div onclick="slideShow(1)"></div>
+            <div onclick="slideShow(2)" ></div>
+        </div>
+        
+    </div>
+    <!-- about -->
+    <div class="introduct">
+        <img src="images/about-img.jpg" alt="images">
+    </div>
+     <!-- qt -->
+     <div class="quotes qt-background">
+         <p class="quote">" If you're not the one cooking, stay out of the way and compliment the chef. "</p>
+         <span class="author">Michael Strahan</span>
+     </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
